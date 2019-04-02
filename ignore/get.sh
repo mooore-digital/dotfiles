@@ -30,22 +30,22 @@ function ignoreCopy() {
 
 echo -e "${GREEN}Starting Configuration... ${RESET}"
 case "${TYPE}" in
-    --magento|-M1)
+    magento|m1)
         ignoreCopy() magento
         ;;
-    --magento2|-M2)
+    magento2|m2)
         ignoreCopy() magento2
         ;;
-    --wordpress|-WP)
+    wordpress|wp)
         ignoreCopy() wordpress
         ;;
-    --wordpress-themosis|-WPT)
+    wp-themosis|wp-t)
         ignoreCopy() wordpress-themosis wordpress
         ;;
-    --laravel|-LV)
+    laravel|lara)
         ignoreCopy() laravel default
         ;;
-    --akeneo|-AK)
+    akeneo)
         ignoreCopy() akeneo default
         ;;
 esac
