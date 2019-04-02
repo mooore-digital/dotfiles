@@ -1,0 +1,52 @@
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+desktop.ini
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Development
+node_modules
+
+# Temporary/Cache
+.cache
+
+# Wordpress directories/files
+content/advanced-cache.php
+content/cache/*
+content/uploads/*
+!content/uploads/.htaccess
+content/w3tc-config/*
+shared/*
+wp/nginx.conf
+local-config.php
+# Plugin W3Total cache
+nginx.conf
+content/db.php
+content/object-cache.php
