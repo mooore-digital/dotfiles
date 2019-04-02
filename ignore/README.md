@@ -17,7 +17,7 @@ You can use it locally from your own directory, via;
 bash <PATH>/dotfiles/ignore/get.sh magento2
 ```
 
-Project options are requires!
+Project options are required!
 
 | Project            | Flag                                |
 | ------------------ | ----------------------------------- |
