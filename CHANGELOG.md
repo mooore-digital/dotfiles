@@ -5,6 +5,7 @@
 * ADD: README
 * IMP: ignore get if statements
 * IMP: Doc and options for ignore get
+* ADD: if to check if file is already in dir
 
 ## 1.0.0 - 28-03-19
 * Initial Setup

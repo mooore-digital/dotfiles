@@ -21,11 +21,19 @@ else
 fi
 
 function ignoreCopy() {
-    echo -e "${YELLOW}Creating ${TYPE} .gitignore${RESET}"
-    curl -sS -o .gitignore $GIT_URL/ignore/git/${TYPE}.gitignore
-    echo -e "${YELLOW}Creating ${LINT} .stylelintignore${RESET}"
-    curl -sS -o .stylelintignore $GIT_URL/ignore/style/${LINT}.stylelintignore
-    # add ESLint
+    echo -e "${YELLOW}Creating .gitignore${RESET}";
+    if [[ -e ".gitignore" ]]; then
+        echo -e "${YELLOW}Aborting... .gitignore already in directory${RESET}";
+    else
+        curl -sS -o .gitignore $GIT_URL/ignore/git/${TYPE}.gitignore;
+    fi
+
+    echo -e "${YELLOW}Creating .stylelintignore${RESET}";
+    if [[ -e ".stylelintignore" ]]; then
+        echo -e "${YELLOW}Aborting... .stylelintignore already in directory${RESET}";
+    else
+        curl -sS -o .stylelintignore $GIT_URL/ignore/style/${LINT}.stylelintignore;
+    fi
 }
 
 echo -e "${GREEN}Starting Configuration... ${RESET}"
