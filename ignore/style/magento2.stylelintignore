@@ -1,0 +1,13 @@
+node_modules
+/vendor
+src/vendor
+
+# Magento
+/lib
+/pub/static
+/pub/media
+/vendor
+
+# Possible Vendor folders
+/app/**/frontend/**/web/css/source/vendor
+/app/**/frontend/**/web/css/src/vendor

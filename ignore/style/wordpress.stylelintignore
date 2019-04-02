@@ -1,0 +1,10 @@
+node_modules
+/vendor
+src/vendor
+
+# Wordpress
+/wp
+/content/themes/plugins
+
+# Possible Vendor folders
+/content/themes/themes/**/vendor
