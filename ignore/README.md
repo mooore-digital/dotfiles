@@ -8,14 +8,25 @@ We use setup scripts for our projects.
 and so for that reason we simply call this script from github in our project script.
 
 ```bash
-bash -c "$(curl -LsS https://raw.githubusercontent.com/marissen/dotfiles/master/ignore/get.sh)";
+curl https://raw.githubusercontent.com/marissen/dotfiles/master/ignore/get.sh | bash -s magento2
 ```
 
 You can use it locally from your own directory, via;
 
 ```bash
-bash <PATH>/dotfiles/ignore/get.sh;
+bash <PATH>/dotfiles/ignore/get.sh magento2
 ```
+
+Project options are requires!
+
+| Project            | Flag                                |
+| ------------------ | ----------------------------------- |
+| Magento            | magento, m1                         |
+| Magento2           | magento2, m2                        |
+| Wordpress          | wordpress, wp                       |
+| Wordpress Themosis | wordpress-themosis, wpthemosis, wpt |
+| Laravel            | laravel, lara                       |
+| Akeneo             | akeneo                              |
 
 ## Files
 

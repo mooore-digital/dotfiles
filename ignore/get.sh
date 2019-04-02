@@ -6,8 +6,7 @@ GREEN='\033[1;32m'
 YELLOW='\033[1;33m'
 
 if [[ $1 == "" ]]; then
-    echo "The project type is requires" &&
-    exit;
+    echo "The project type is required" && exit;
 fi
 
 TYPE=${1}
@@ -24,6 +23,7 @@ fi
 function ignoreCopy() {
     echo -e "${YELLOW}Creating ${TYPE} .gitignore${RESET}"
     curl -sS -o .gitignore $GIT_URL/ignore/git/${TYPE}.gitignore
+    echo -e "${YELLOW}Creating ${LINT} .stylelintignore${RESET}"
     curl -sS -o .stylelintignore $GIT_URL/ignore/style/${LINT}.stylelintignore
     # add ESLint
 }

@@ -4,6 +4,7 @@
 * ADD: ignore for style
 * ADD: README
 * IMP: ignore get if statements
+* IMP: Doc and options for ignore get
 
 ## 1.0.0 - 28-03-19
 * Initial Setup
