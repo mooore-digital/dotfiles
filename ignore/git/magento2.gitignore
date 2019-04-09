@@ -45,6 +45,7 @@ node_modules
 /lib/.htaccess
 /phpserver/*
 /setup/*
+/vendor/*
 /.htaccess
 /.php_cs.dist
 /.travis.yml
