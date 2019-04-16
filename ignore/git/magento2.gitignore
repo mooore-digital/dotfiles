@@ -78,6 +78,6 @@ COPYING.txt
 # TODO specific
 /*.sample
 /*.playbook.yml.dist
-/*.playbook.yml.retry
+/*.playbook.retry
 /*.md
 /*.txt
