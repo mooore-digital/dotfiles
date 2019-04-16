@@ -16,7 +16,7 @@ indent_size = 4
 trim_trailing_whitespace = false
 max_line_length = 80
 
-[*.{html,less,sass,scss,js,ts,jsx,tsx,mjs,vue}]
+[*.{html,vue,css,less,sass,scss,js,ts,jsx,tsx,mjs,json,yaml,yml}]
 indent_size = 4
 max_line_length = 80
 
