@@ -33,6 +33,7 @@ Thumbs.db
 
 # Development
 node_modules
+/auth.json
 
 # Temporary/Cache
 .cache
