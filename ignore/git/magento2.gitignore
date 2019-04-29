@@ -76,6 +76,8 @@ COPYING.txt
 /var/*
 # 2.3 specific
 /app/config_sandbox
+!/app/etc/db_schema.xml
+!/app/etc/registration_globlist.php
 # TODO specific
 /*.sample
 /*.playbook.yml.dist
