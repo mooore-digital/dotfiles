@@ -69,10 +69,11 @@ COPYING.txt
 # Cache/generated
 /generated/*
 /pub/*.*
-/pub/errors/*
-/pub/media/*
-/pub/opt/*
-/pub/static/*
+/pub/errors/marissen/
+/pub/errors/default/
+/pub/media/
+/pub/opt/
+/pub/static/
 /var/*
 # 2.3 specific
 /app/config_sandbox
