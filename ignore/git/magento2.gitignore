@@ -69,6 +69,7 @@ COPYING.txt
 # Cache/generated
 /generated/*
 /pub/*.*
+/pub/errors/*.*
 /pub/errors/marissen/
 /pub/errors/default/
 /pub/media/
