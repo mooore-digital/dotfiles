@@ -72,6 +72,7 @@ COPYING.txt
 /pub/errors/*.*
 /pub/errors/marissen/
 /pub/errors/default/
+!/pub/errors/local.xml
 /pub/media/
 /pub/opt/
 /pub/static/
