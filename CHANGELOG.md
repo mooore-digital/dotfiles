@@ -1,3 +1,8 @@
+# Changelog
+
+## 1.2.0 - 09-05-19
+* ADD: git ignore for local config editors
+
 ## 1.1.0 - 02-04-19
 * ADD: get script
 * ADD: ignore for git

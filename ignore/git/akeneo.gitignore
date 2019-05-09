@@ -33,6 +33,8 @@ Thumbs.db
 
 # Development
 node_modules
+.idea
+.vscode
 
 # Temporary/Cache
 .cache
