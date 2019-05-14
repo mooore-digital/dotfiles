@@ -53,3 +53,6 @@ local-config.php
 nginx.conf
 content/db.php
 content/object-cache.php
+
+# Deployer
+/vendor
