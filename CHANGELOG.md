@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.0 - 17-06-19
+* ADD: update folder to ignore
+
 ## 1.2.0 - 09-05-19
 * ADD: git ignore for local config editors
 
