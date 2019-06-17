@@ -79,6 +79,7 @@ COPYING.txt
 /pub/opt/
 /pub/static/
 /var/*
+/update/*
 # 2.3 specific
 /app/config_sandbox
 # TODO specific
