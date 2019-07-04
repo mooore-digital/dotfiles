@@ -80,6 +80,7 @@ COPYING.txt
 /pub/static/
 /var/*
 /update/*
+.php_cs.cache
 # 2.3 specific
 /app/config_sandbox
 # TODO specific

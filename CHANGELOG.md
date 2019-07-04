@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.4.0 - 04-07-19
+* ADD: .php_cs.cache to Magento2 gitignore
+
 ## 1.3.0 - 17-06-19
 * ADD: update folder to ignore
 
