@@ -36,6 +36,7 @@ node_modules
 /auth.json
 .idea
 .vscode
+.php_cs.cache
 
 # Temporary/Cache
 .cache
