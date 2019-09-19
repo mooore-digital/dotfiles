@@ -66,11 +66,13 @@ COPYING.txt
 /dev/travis/*
 /dev/tests/*
 /dev/tools/*
+!/dev/tools/frontools
 /dev/tools/frontools/config/*.sample.yml
 /dev/tools/frontools/config/*.sample.json
 /dev/.htaccess
 /dev/develop
 /dev/local.sql
+/tools
 # Cache/generated
 /generated/*
 /pub/*.*
