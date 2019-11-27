@@ -1,6 +1,6 @@
-# Marissen Dotfiles 🔧
+# Mooore Digital Dotfiles 🔧
 
-All config and setup files for [Marissen](https://www.marissen.net/) Projects
+All config and setup files for [Mooore Digital](https://www.mooore.nl/) Projects
 
 ## What's in the box
 
@@ -31,4 +31,4 @@ Our git config and ignore files
 Most files in here are ignore files for each project.
 
 ## License
-[MIT](LICENSE) © [Marissen e-commerce](https://www.marissen.net)
+[MIT](LICENSE) © [Mooore Digital](https://www.mooore.nl)

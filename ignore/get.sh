@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GIT_URL="https://raw.githubusercontent.com/marissen/dotfiles/master";
+GIT_URL="https://raw.githubusercontent.com/mooore-digital/dotfiles/master";
 RESET='\033[0m'
 GREEN='\033[1;32m'
 YELLOW='\033[1;33m'

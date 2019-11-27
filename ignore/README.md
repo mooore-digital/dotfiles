@@ -8,7 +8,7 @@ We use setup scripts for our projects.
 and so for that reason we simply call this script from github in our project script.
 
 ```bash
-curl -LsS https://raw.githubusercontent.com/marissen/dotfiles/master/ignore/get.sh | bash -s magento2
+curl -LsS https://raw.githubusercontent.com/mooore-digital/dotfiles/master/ignore/get.sh | bash -s magento2
 ```
 
 You can use it locally from your own directory, via;
