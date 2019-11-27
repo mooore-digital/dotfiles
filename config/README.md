@@ -8,7 +8,7 @@ We use setup scripts for our projects.
 and so for that reason we simply call this script from github in our project script.
 
 ```bash
-bash -c "$(curl -LsS https://raw.githubusercontent.com/marissen/dotfiles/master/config/get.sh)"
+bash -c "$(curl -LsS https://raw.githubusercontent.com/mooore-digital/dotfiles/master/config/get.sh)"
 ```
 
 You can use it locally from your own directory, via;
@@ -63,12 +63,12 @@ code --install-extension EditorConfig.EditorConfig
 
 Contains our stylelint config file.
 This file only extends on our npm package config
-[(@marissen/stylelint-config)](https://www.npmjs.com/package/@marissen/stylelint-config).
+[(@mooore/stylelint-config)](https://www.npmjs.com/package/@mooore/stylelint-config).
 
 Which you can install via;
 
 ```bash
-npm install @marissen/stylelint-config --save-dev
+npm install @mooore/stylelint-config --save-dev
 ```
 
 The `get.sh` will only add the stylelintrc file from this repo.
