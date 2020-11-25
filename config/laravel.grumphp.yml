@@ -6,6 +6,3 @@ parameters:
       standard: PSR2
       whitelist_patterns:
         - app
-      ignore_patterns:
-        - src/Migrations
-        - src/Kernel.php

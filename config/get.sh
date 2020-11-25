@@ -25,10 +25,12 @@ if [[ ! $REPLY =~ ^[nN]|[nN][oO]$ ]]; then
   echo "Grumphp types;"
   echo " - magento2"
   echo " - laravel"
+  echo " - symfony"
   echo " - (blank = default)"
   read -p "Type: " PHP_TYPE && echo ""
   if [[ "$PHP_TYPE" =~ ^[mM][2]|"magento"$ ]]; then TYPE="magento2"; fi
   if [[ "$PHP_TYPE" =~ ^"laravel"$ ]]; then TYPE="laravel"; fi
+  if [[ "$PHP_TYPE" =~ ^"symfony"$ ]]; then TYPE="symfony"; fi
 
   echo -e "${YELLOW}Creating stylelint config${RESET}"
   if [[ ! -z "$TYPE" ]]; then
@@ -36,7 +38,6 @@ if [[ ! $REPLY =~ ^[nN]|[nN][oO]$ ]]; then
   else
     curl -sS -O $GIT_URL/config/grumphp/grumphp.yml
   fi
-
 fi;
 
 # TODO: create eslint
