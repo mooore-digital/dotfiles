@@ -28,5 +28,5 @@ max_line_length = 80
 indent_size = 4
 max_line_length = 120
 
-[{composer, auth}.json]
+[{composer,auth}.json]
 indent_size = 4
