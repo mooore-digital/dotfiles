@@ -1,0 +1,11 @@
+parameters:
+  git_dir: .
+  bin_dir: vendor/bin
+  tasks:
+    phpcs:
+      standard: PSR2
+      whitelist_patterns:
+        - src
+      ignore_patterns:
+        - src/Migrations
+        - src/Kernel.php
