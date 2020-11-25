@@ -34,9 +34,9 @@ if [[ ! $REPLY =~ ^[nN]|[nN][oO]$ ]]; then
 
   echo -e "${YELLOW}Creating stylelint config${RESET}"
   if [[ ! -z "$TYPE" ]]; then
-    curl -sS -O $GIT_URL/config/grumphp/${TYPE}.grumphp.yml
+    curl -sS -O $GIT_URL/config/${TYPE}.grumphp.yml
   else
-    curl -sS -O $GIT_URL/config/grumphp/grumphp.yml
+    curl -sS -O $GIT_URL/config/grumphp.yml
   fi
 fi;
 
