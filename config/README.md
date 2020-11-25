@@ -8,7 +8,7 @@ We use setup scripts for our projects.
 and so for that reason we simply call this script from github in our project script.
 
 ```bash
-bash -c "$(curl -LsS https://raw.githubusercontent.com/mooore-digital/dotfiles/master/config/get.sh)"
+bash -c "$(curl -LsS https://raw.githubusercontent.com/mooore-digital/dotfiles/main/config/get.sh)"
 ```
 
 You can use it locally from your own directory, via;
