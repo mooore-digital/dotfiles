@@ -17,6 +17,28 @@ curl -sS -O $GIT_URL/config/.browserslistrc
 echo -e "${YELLOW}Creating stylelint config${RESET}"
 curl -sS -O $GIT_URL/config/.stylelintrc
 
+read -p "Also add grumphp? [Y/n] "
+echo ""
+if [[ ! $REPLY =~ ^[nN]|[nN][oO]$ ]]; then
+  TYPE=""
+
+  echo "Grumphp types;"
+  echo " - magento2"
+  echo " - laravel"
+  echo " - (blank = default)"
+  read -p "Type: " PHP_TYPE && echo ""
+  if [[ "$PHP_TYPE" =~ ^[mM][2]|"magento"$ ]]; then TYPE="magento2"; fi
+  if [[ "$PHP_TYPE" =~ ^"laravel"$ ]]; then TYPE="laravel"; fi
+
+  echo -e "${YELLOW}Creating stylelint config${RESET}"
+  if [[ ! -z "$TYPE" ]]; then
+    curl -sS -O $GIT_URL/config/grumphp/${TYPE}.grumphp.yml
+  else
+    curl -sS -O $GIT_URL/config/grumphp/grumphp.yml
+  fi
+
+fi;
+
 # TODO: create eslint
 # echo -e "${YELLOW}Creating ESLint config${RESET}"
 # curl -sS -O $GIT_URL/config/.eslintrc
