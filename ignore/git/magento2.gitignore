@@ -34,6 +34,7 @@ Thumbs.db
 # Development
 node_modules
 /auth.json
+.env
 .idea
 .vscode
 .php_cs.cache
@@ -50,6 +51,7 @@ node_modules
 /phpserver/*
 /setup/*
 /vendor/*
+/vendor_orig/*
 /.htaccess
 /.php_cs.dist
 /.travis.yml
@@ -62,6 +64,7 @@ COPYING.txt
 /app/.htaccess
 !/app/etc/config.php
 !/app/etc/n98-magerun2.yaml
+!/app/etc/stores-loader.php
 # Tools
 /dev/travis/*
 /dev/tests/*
