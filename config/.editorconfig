@@ -16,13 +16,12 @@ indent_size = 4
 trim_trailing_whitespace = false
 max_line_length = 80
 
-[*.{html,css,less,sass,scss}]
+[*.{css,less,sass,scss,js,ts,mjs}]
 indent_size = 4
 max_line_length = 80
 
-[*.{js,ts,vue,jsx,tsx}]
-indent_size = 2
-max_line_length = 80
+[*.{html,vue,jsx,tsx}]
+indent_size = 4
 
 [*.{xml,phtml,php}]
 indent_size = 4
