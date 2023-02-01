@@ -57,7 +57,9 @@ node_modules
 /.travis.yml
 /.user.ini
 /index.php
-COPYING.txt
+/COPYING.txt
+/CHANGELOG.md
+/SECURITY.md
 # config
 /app/etc/*
 /app/*.php
@@ -95,5 +97,4 @@ COPYING.txt
 /*.sample
 /*.playbook.yml.dist
 /*.playbook.retry
-/*.md
 /*.txt
